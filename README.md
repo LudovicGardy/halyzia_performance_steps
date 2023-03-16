@@ -32,6 +32,6 @@ We compared the performance of Halyzia with other detectors evaluated on the sam
 # Summary figure
 ![](illustrations/performances.png)
 
-**References:**
+# References
 [1] Roehri, N., Pizzo, F., Bartolomei, F., Wendling, F., & Bénar, C. G. (2017a). What are the assets and weaknesses of HFO detectors? A benchmark framework based on realistic simulations. PLoS ONE, 12(4). https://doi.org/10.1371/journal.pone.0174702
 

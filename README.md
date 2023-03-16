@@ -18,14 +18,14 @@ This notebook presents the performance of Halyzia in the detection of Fast Rippl
 - Events that contain an FR and are not detected by the algorithm are considered false negatives (FN). 
 - Events that do not contain FR and are not detected by the algorithm are considered true negatives (TN). 
 
-Sensitivity (sens) was calculated as follow:
-$$ TP \over TP + FA $$
+Sensitivity (sens) was calculated as follow:\
+TP / (TP + FP)
 
-Precision (prec) was calculated as follow:
-$$ TP \over TP + FN $$
+Precision (prec) was calculated as follow:\
+TP / (TP + FN)
 
-F measure was calculated as follow:
-$$ 2 * (prec * sens) \over (prec + sens) $$
+F measure was calculated as follow:\
+2 * (prec * sens) / (prec + sens)
 
 We compared the performance of Halyzia with other detectors evaluated on the same data (see also [1]).
 

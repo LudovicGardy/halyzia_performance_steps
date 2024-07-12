@@ -1,14 +1,14 @@
 # Halyzia© / Ladybird performance in detecting pathological epileptic events and resistance to false positives
 
 ## Description
-This program demonstrates results of the processing performed by Ladybird / Halyzia©, a software for the automatic detection of fast-ripples (FRs) in epilepsy [[L. Gardy, doctoral thesis](https://data.inpi.fr/brevets/FR3128111)], [[Brevet: FR3128111](http://thesesups.ups-tlse.fr/5164/1/2021TOU30190.pdf)].
+Halyzia©, also known as Ladybird, is a sophisticated software designed for the automatic detection of fast-ripples (FRs) in epilepsy, as described in the [doctoral thesis of L. Gardy](https://data.inpi.fr/brevets/FR3128111) and patented under [Brevet: FR3128111](http://thesesups.ups-tlse.fr/5164/1/2021TOU30190.pdf). This repository showcases a component of Halyzia© that is focused on the efficient automatic detection of Fast Ripples (FR) in epilepsy.
+
 
 More specifically, this notebook presents the performance of Halyzia in the detection of Fast Ripples (FR) at different signal to noise ratios: 0dB, 5 dB, 10 dB and 15 dB. Step 1 of Halyzia consists of detecting pathological shapes on EEG scalograms transformed into images with a convolutional neural network (CNN). Halyzia's Step 2 filters false positives using a homemade algorithm consisting of multiple clustering and probabilistic steps.
 
 ## Installation
 
 ### Prerequisites
-
 - Python 3.11
 - Python libraries: see requirements.txt
 
@@ -16,7 +16,7 @@ More specifically, this notebook presents the performance of Halyzia in the dete
 Detailed analysis here can be accessed and performed from [main.ipynb](https://github.com/LudovicGardy/halyzia_performance_steps/main.ipynb).
 
 ### Input data
- The data used for this work are the gold standard of the literature [1], used by several authors to evaluate their Fast Ripples, Ripples or Intercritical Epileptic Spikes detector. These simulated EEG data are composed of 40,320 events that can appear alone or in combination, as show in the table below.
+The data used for this work are the gold standard of the literature [1], used by several authors to evaluate their Fast Ripples, Ripples or Intercritical Epileptic Spikes detector. These simulated EEG data are composed of 40,320 events that can appear alone or in combination, as show in the table below.
 
 ## Results
 | Event type      | 0 dB | 5dB     | 10dB     | 15dB     | **TOTAL**     |

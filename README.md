@@ -1,7 +1,7 @@
 # Halyzia© / Ladybird performance in detecting pathological epileptic events and resistance to false positives
 
 ## Description
-Halyzia©, also known as Ladybird, is a sophisticated software designed for the automatic detection of fast-ripples (FRs) in epilepsy, as described in the [doctoral thesis of L. Gardy](https://data.inpi.fr/brevets/FR3128111) and patented under [Brevet: FR3128111](http://thesesups.ups-tlse.fr/5164/1/2021TOU30190.pdf). This repository showcases a component of Halyzia© that is focused on the efficient automatic detection of Fast Ripples (FR) in epilepsy.
+Halyzia©, also known as Ladybird, is a sophisticated software designed for the automatic detection of fast-ripples (FRs) in epilepsy, as described in the [doctoral thesis of L. Gardy](http://thesesups.ups-tlse.fr/5164/1/2021TOU30190.pdf) and patented under [Brevet: FR3128111](https://data.inpi.fr/brevets/FR3128111). This repository showcases a component of Halyzia© that is focused on the efficient automatic detection of Fast Ripples (FR) in epilepsy.
 
 
 More specifically, this notebook presents the performance of Halyzia in the detection of Fast Ripples (FR) at different signal to noise ratios: 0dB, 5 dB, 10 dB and 15 dB. Step 1 of Halyzia consists of detecting pathological shapes on EEG scalograms transformed into images with a convolutional neural network (CNN). Halyzia's Step 2 filters false positives using a homemade algorithm consisting of multiple clustering and probabilistic steps.

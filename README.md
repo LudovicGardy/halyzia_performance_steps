@@ -1,7 +1,7 @@
-# Halyzia© / Ladybird performance in detecting pathological epileptic events and resistance to false positives
+# Ladybird Performance in Detecting Pathological Epileptic Events and Resistance to False Positives
 
 ## 📄 Description
-Halyzia©, also known as Ladybird, is a sophisticated software designed for the automatic detection of fast-ripples (FRs) in epilepsy, as described in the [doctoral thesis of L. Gardy](http://thesesups.ups-tlse.fr/5164/1/2021TOU30190.pdf) and patented under [Brevet: FR3128111](https://data.inpi.fr/brevets/FR3128111). This repository showcases a component of Halyzia© that is focused on the efficient automatic detection of Fast Ripples (FR) in epilepsy.
+This repository showcases a component of [Ladybird](#about-ladybird) that is focused on the efficient automatic detection of Fast Ripples (FR) in epilepsy.
 
 More specifically, this notebook presents the performance of Halyzia in the detection of Fast Ripples (FR) at different signal to noise ratios: 0dB, 5 dB, 10 dB and 15 dB. Step 1 of Halyzia consists of detecting pathological shapes on EEG scalograms transformed into images with a convolutional neural network (CNN). Halyzia's Step 2 filters false positives using a homemade algorithm consisting of multiple clustering and probabilistic steps.
 
@@ -61,6 +61,24 @@ We compared the performance of Halyzia with other detectors evaluated on the sam
 
 ## 📚 References
 [1] Roehri, N., Pizzo, F., Bartolomei, F., Wendling, F., & Bénar, C. G. (2017a). What are the assets and weaknesses of HFO detectors? A benchmark framework based on realistic simulations. PLoS ONE, 12(4). https://doi.org/10.1371/journal.pone.0174702
+
+#### About Ladybird
+Ladybird, developed during [L. Gardy's doctoral research](http://thesesups.ups-tlse.fr/5164/1/2021TOU30190.pdf) under the guidance of [E. Barbeau](https://cerco.cnrs.fr/page-perso-emmanuel-j-barbeau-ph-d/) (neuroscientist, CNRS) and [C. Hurter](http://recherche.enac.fr/~hurter/presentation.html) (engineer, ENAC), is a sophisticated software designed for the automatic detection of fast-ripples (FRs) in epilepsy. Originally developed by L. Gardy, with significant input from various researchers and medical professionals the early trials in the neurology department at Toulouse Hospital, along with support from various academic and economic entities, led to widespread enthusiasm and substantial funding, allowing for further development and eventual patenting ([Brevet: FR3128111](https://data.inpi.fr/brevets/FR3128111)). Ladybird was later rebranded as Halyzia©, a name change necessitated for trademark reasons, and is now being further developed and commercialized by the French startup Avrio MedTech.
+
+<table style="width:100%;">
+  <tr>
+    <td style="width:50%;"><img src="images/ladybird1.jpg" alt="Image 1" style="width:100%;"></td>
+    <td style="width:50%;"><img src="images/ladybird2.jpg" alt="Image 2" style="width:100%;"></td>
+  </tr>
+  <tr>
+    <td style="width:50%;"><img src="images/ladybird3.jpg" alt="Image 3" style="width:100%;"></td>
+    <td style="width:50%;"><img src="images/ladybird4.jpg" alt="Image 4" style="width:100%;"></td>
+  </tr>
+  <tr>
+    <td style="width:50%;"><img src="images/ladybird5.jpg" alt="Image 3" style="width:100%;"></td>
+    <td style="width:50%;"><img src="images/ladybird6.jpg" alt="Image 4" style="width:100%;"></td>
+  </tr>
+</table>
 
 ## 👤 Author
 - LinkedIn: [Ludovic Gardy](https://www.linkedin.com/in/ludovic-gardy/)

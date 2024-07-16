@@ -75,8 +75,8 @@ Ladybird, developed during [L. Gardy's doctoral research](http://thesesups.ups-t
     <td style="width:50%;"><img src="images/ladybird4_v1.jpg" alt="Image 4" style="width:100%;"></td>
   </tr>
   <tr>
-    <td style="width:50%;"><img src="images/ladybird5_v1.jpg" alt="Image 3" style="width:100%;"></td>
-    <td style="width:50%;"><img src="images/ladybird6_v1.jpg" alt="Image 4" style="width:100%;"></td>
+    <td style="width:50%;"><img src="images/ladybird5_v1.jpg" alt="Image 5" style="width:100%;"></td>
+    <td style="width:50%;"><img src="images/ladybird6_v1.jpg" alt="Image 6" style="width:100%;"></td>
   </tr>
 </table>
 
